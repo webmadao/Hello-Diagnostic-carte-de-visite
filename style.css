@@ -8,36 +8,58 @@ body{
 
 main {
     font-family: 'Roboto Slab', serif;
-    background-color: white;
+    background-image: url("images/background-main.jpg");
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
     border-radius: 10px;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid red;
+}
     p {
       text-align: center;
     }
   
-   
-    
-      img{
+
+      .logo{
           width: 200px;
           border-radius: 50px;
+          margin-top: 20px;
+      }
+
+      .image-femme{
+          width: 200px;
+          border-radius: 50px;
+          margin-top: 20px;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
       }
   
       ul{
           list-style: none;
       }
+
       li{
           padding-bottom: 10px;
+      }
+
+      a{
+          text-decoration: none;
+          color: black;
+      }
+      a i{
+        color: red;
       }
       
   
@@ -49,21 +71,50 @@ main {
           border-radius: 10px;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           cursor: pointer;
+          
       }
-  
+
+  i{
+    color: red;
   }
+  
+
 
    h2{
-      border: 1px solid gainsboro;
-      font-size: 14px;
+      
+      font-size: 22px;
       padding: 10px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      cursor: pointer;
+     
     }
 
     main h2:hover{
         zoom: 20%;
     }
+.partage ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    
+}
 
+.partage ul li{
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+.partage ul li:hover{
+    background-color: red;
+    color: white;
+}
+
+.partage ul li:hover i{
+    color: white;
+}
     
