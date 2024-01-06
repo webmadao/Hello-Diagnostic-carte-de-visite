@@ -1,13 +1,14 @@
 body{
     background-image: url("images/background-map.jpg");
     color: red;
+    font-family: 'Archivo Black', sans-serif;
+font-family: 'Timmana', sans-serif;
 }
 
 
 
 main {
-    font-family: 'Archivo Black', sans-serif;
-font-family: 'Timmana', sans-serif;
+    
     background-image: url("images/background-main.jpg");
     position: absolute;
     top: 50%;
