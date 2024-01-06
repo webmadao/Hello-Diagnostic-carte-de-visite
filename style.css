@@ -8,7 +8,7 @@ font-family: 'Timmana', sans-serif;
 
 
 main {
-    
+    margin: 20px;
     background-image: url("images/background-main.jpg");
     position: absolute;
     top: 50%;
