@@ -3,12 +3,13 @@ body{
     color: red;
     font-family: 'Archivo Black', sans-serif;
 font-family: 'Timmana', sans-serif;
+height: 900px;
 }
 
 
 
 main {
-    margin: 20px;
+   margin-top: 40px;
     background-image: url("images/background-main.jpg");
     position: absolute;
     top: 50%;
