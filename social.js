@@ -44,4 +44,12 @@
         popupCenter(shareUrl, "Partager sur Linkedin");
     });
 
+    document.querySelector('.share-whatsapp').addEventListener('click', function(e){
+        e.preventDefault();
+        let url = this.getAttribute('data-url');
+        let shareUrl = "https://api.whatsapp.com/send?text=" + encodeURIComponent(document.title + " " + url);
+        window.open(shareUrl, "_blank");
+    });
+    
+
 })();
