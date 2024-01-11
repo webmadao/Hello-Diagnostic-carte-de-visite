@@ -18,7 +18,7 @@
         e.preventDefault();
         let url = this.getAttribute('data-url');
         let shareUrl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(document.title) +
-            "&via=Grafikart_fr" +
+             +
             "&url=" + encodeURIComponent(url);
         popupCenter(shareUrl, "Partager sur Twitter");
     });
