@@ -8,6 +8,7 @@ height: 900px;
 
 
 main {
+   margin-block: 40px;
     background-image: url("images/background-main.avif");
     position: absolute;
     top: 50%;
