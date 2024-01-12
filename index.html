@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <meta name="description" content="Une carte de visite pour les partenaires de la société de diagnostic immobilier">
     <link rel="preload" href="style.css" as="style">
     <meta name="Hello-Diagnostic-carte-de-visite" content="Template to start HTML">
     <link
@@ -36,13 +37,14 @@
       <img
         src="./images/logo.avif"
         id="logo"
-        class="animate__animated animate__bounce"
+        class="animate__animated animate__slideInDown"
         alt="logo en forme de maison rouge et d'un téléphone blanc"
       />
       <h1>Découvrez la confiance immobilière avec Hello Diagnostic.</h1>
       <img
         src="./images/header-image.avif"
-        class="image-femme"
+        class="animate__animated animate__slideInDown"
+        id="image-femme"
         alt="une dame souriante tenanat à la main une maison en maquette "
       />
       <h2>Hello Diagnostic</h2>
@@ -71,7 +73,7 @@
           <button id="closemodal"><strong>X</strong></button>
           <img src="./images/qrcode.avif" />
         </dialog>
-        <ul>
+        <ul class="animate__animated animate__slideInUp" >
           <li
             class="share-gplus"
             data-url="https://webmadao.github.io/Hello-Diagnostic-carte-de-visite/"
@@ -106,6 +108,6 @@
       </section>
     </main>
     <script src="script.js"></script>
-    <script src="social.js"></script>
+    
   </body>
 </html>
