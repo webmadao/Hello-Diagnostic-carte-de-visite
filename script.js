@@ -1,14 +1,17 @@
 const modal = document.querySelector("#modal");
 const btnOpenModal = document.querySelector("#openmodal");
 const btnCloseModal = document.querySelector("#closemodal");
+const overlay = document.querySelector('.overlay')
 
 
 btnOpenModal.addEventListener("click", () => {
     modal.style.display = "block";
+    overlay.style.display = "block"
 });
 
 btnCloseModal.addEventListener("click", () => {
     modal.style.display = "none";
+    overlay.style.display = "none"
     modal.classList.remove("animate__animated", "animate__fadeIn");
 });
 
